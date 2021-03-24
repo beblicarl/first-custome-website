@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="bg-local h-64 text-gray-700" style="background-image: url(./img/svg\(2\).png);" > <!--Landing page-->
+        <div> <!--Content wrapper-->
+
+            <nav> <!--Navigation bars-->
+                <div>
+                   <ul class="text-gray-800 flex justify-evenly p-10">
+                       <li>
+                            <a href="#">
+                               <span>Home</span>
+                           </a>
+                       </li>
+                       <li>
+                            <a href="#">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                   </ul>
+                </div>
+            </nav> 
+        </div> <!--End Nav-->
+        <main>
+            <div class="flex items-center justify-evenly mt-10" >
+                <div>
+                    <img src="./img/corperate-woman.jpg" alt="corperate woman" class=" m-t max-w-sm rounded-full object-cover ">
+                </div>
+                <div class="text-gray-700 font-sans text-3xl text-center leading-10">
+                    <p>Hi ! I go by the name <span class="border-b-4 border-green-300 border-dotted  text-4xl italic">NHYIRA OFOSUHEMAA</span>.<br><br>I am a <span class="type text-green-300 tracking-wider text-5xl"></span></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('.type', {
+    // Waits 1000ms after typing "First"
+        strings: [' Fashion designer.', ' Philanthropist.',' Public Speaker',' Consultant',' Business Woman'],
+        typeSpeed: 90,
+        backSpeed: 70,
+        loop: true,
+  });
+    </script>
+    
+</body>
+</html>
