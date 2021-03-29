@@ -1,10 +1,13 @@
+const burger = document.querySelector('#burger');
+const menu = document.querySelector('#menu');
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
-var typed = new Typed('.type', {
-    // Waits 1000ms after typing "First"
-    strings: ['Fashion designer.', 'Philanthropist.','Public Speaker','Consultant','Business Woman'],
-    typeSpeed: 100,
-    backSpeed: 70,
-    loop: true,
-  });
+burger.addEventListener('click', () => {
+  if (menu.classList.contains('hidden')){
+    menu.classList.remove('hidden');
+  }else{
+    menu.classList.add('hidden');
+  }
+  
+})
+
