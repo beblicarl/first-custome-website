@@ -31177,6 +31177,13 @@ video {
           animation: bounce 1s infinite;
 }
 
+@layer {
+  .cards{
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
